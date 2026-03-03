@@ -1,0 +1,22 @@
+.content-img{
+    width:75%;
+    height:auto;
+    justify-self: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.content-img p{
+    text-align: center;
+    color:rgb(78, 78, 78)
+}
+.bv5-pg1{
+    width:40%;
+    height:auto;
+    display: block; 
+    margin: 0 auto;
+}
+.bv5-span{
+    font-size:25px;
+    font-weight: bold;
+    color:rgb(228, 146, 177);
+}

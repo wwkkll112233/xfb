@@ -1,0 +1,112 @@
+@media (min-width: 1260px) {
+    .nav-warp{
+        width: 945px;
+    }
+}
+@media (max-width: 1259px) {
+    .nav-warp{
+        width: 75%;
+    }
+}
+
+@media (max-width: 570px) {
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display: block;
+    }
+}
+@media (min-width: 570px) {
+    .menu2{
+        display: none;
+    }
+}
+
+
+
+
+/* 列表样式 */
+@media (min-width: 999px) {
+    .list-item-warp{
+        width:350px;
+    }
+    .list-text{
+        font-size: 16px;
+    }
+    .up-data{
+        font-size:15px;
+    }
+}
+@media (min-width: 666px) and (max-width: 999px) {
+    .list-item-warp{
+        width:50%;
+    }
+    .list-text{
+        font-size: 16px;
+    }
+    .up-data{
+        font-size:12px;
+    }
+}
+@media (max-width: 665px) {
+    .list-item-warp{
+        width:100%;
+    }
+    .list-text{
+        font-size:3vw;
+    }
+    .up-data{
+        font-size:2.5vw;
+    }
+}
+
+
+
+
+/* 轮播图样式 */
+@media (min-width: 1000px) {
+    .Carousel{
+        width: 700px; 
+    }
+}
+@media (min-width: 768px) and (max-width: 999px)  {
+    .Carousel{
+        width: 100%; 
+    }
+}
+@media (min-width: 375px) and (max-width: 767px) {
+    .Carousel{
+        width: 100%; 
+    }
+}
+@media (max-width: 374px) {
+    .Carousel{
+        width: 100%; 
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .banner-warp{
+        width:1050px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1499px) {
+    .banner-warp{
+        width:70vw;
+    }
+}
+
+@media (min-width: 589px) and (max-width: 999px) {
+    .banner-warp{
+        width:85vw;
+    }
+}
+
+@media (max-width: 588px) {
+    .banner-warp{
+        width:95vw;
+    }
+}

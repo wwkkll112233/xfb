@@ -1,6 +1,6 @@
 .content-img{
     width:75%;
-    height: auto;
+    height:auto;
     justify-self: center;
     margin-top: 10px;
     padding: 5px;
@@ -9,8 +9,20 @@
     text-align: center;
     color:rgb(78, 78, 78)
 }
-.bv3-pg1{
+.bv9-pg1{
     width:65%;
+    height:auto;
+    display: block; 
+    margin: 0 auto;
+}
+.bv9-pg2{
+    width:85%;
+    height:auto;
+    display: block; 
+    margin: 0 auto;
+}
+.bv9-pg3{
+    width:85%;
     height:auto;
     display: block; 
     margin: 0 auto;

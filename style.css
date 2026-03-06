@@ -78,11 +78,11 @@ display: flex;
 
 /* 轮播图样式 */
 .Carousel {
-    justify-self:center;
+    margin: 0 auto;          /* 新增：水平居中 */
     position: relative;
-    overflow: hidden;     /* 隐藏超出部分 */
-    /* 可根据需要设置高度，或者让图片自适应 */
+    overflow: hidden;
     aspect-ratio: 16 / 9;
+    /* 删除或注释掉 justify-self: center; */
 }
 
 .Carousel:hover {
@@ -333,8 +333,9 @@ display: flex;
     color:#fff;
     text-align: center ;
 }
-.footer-warp{
+.footer-warp {
     width: 70vw;
-    justify-self:center;
+    margin: 0 auto;          /* 改为 margin 居中 */
     padding-top: 20px;
+    /* 删除或注释掉 justify-self: center; */
 }

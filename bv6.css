@@ -1,0 +1,30 @@
+.result-table{
+    border-collapse:collapse;
+    width:80%;
+    margin-top:20px;
+    justify-self: center;
+}
+.result-table th, .result-table td{
+    padding:8px;
+    text-align:center;
+}
+.ps{
+    text-align: center;
+    color:rgb(78, 78, 78)
+}
+.tableimg{
+    width:65%;
+    height:auto;
+    display: block; 
+    margin: 0 auto;
+}
+.tableimg2{
+    width:30%;
+    height:auto;
+    display: block; 
+    margin: 0 auto;
+}
+iframe{
+    margin: 0 auto;
+    display: block;
+}
